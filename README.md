@@ -85,12 +85,16 @@ Before running this project locally, ensure you have:
 
 ### Base URL: `/api/products`
 
-| Method | Endpoint | Description |
-| **POST** | `/` | Create a new product |
-| **GET** | `/` | Get all products (supports filtering, sorting, pagination) |
-| **GET** | `/:id` | Get a single product by ID |
-| **PUT** | `/:id` | Update an existing product by ID |
-| **DELETE** | `/:id` | Delete a product by ID |
+
+**POST** | `/` | Create a new product 
+
+**GET** | `/` | Get all products (supports filtering, sorting, pagination) 
+
+**GET** | `/:id` | Get a single product by ID 
+
+**PUT** | `/:id` | Update an existing product by ID 
+
+**DELETE** | `/:id` | Delete a product by ID 
 
 ## Detailed API Usage & Examples
 
